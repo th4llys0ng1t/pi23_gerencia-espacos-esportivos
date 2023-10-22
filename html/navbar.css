@@ -1,0 +1,27 @@
+a {
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+     nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 8vh;
+    margin-top: 20px;
+        } 
+        .logonav{
+    padding-top: 5px;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    text-transform:uppercase;
+  }

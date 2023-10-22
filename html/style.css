@@ -1,0 +1,88 @@
+nav-list {
+margin: 0;
+padding: 0;
+font-size: 12px;
+}
+
+a:hover {
+opacity: 0.5;
+}  
+.logonav{
+padding-top: 0.5px;
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+}
+
+.nav-list li {
+letter-spacing: 3px;
+margin-left: 32px;
+text-transform: uppercase;
+}
+
+.logo h2{
+padding: 10px;
+color: #ffff;
+text-transform:uppercase
+}
+.tabela{
+padding-top: 25px;
+}
+
+th, td{
+padding: 10px;
+margin-top: 20px;
+}
+
+th{
+color: #ffff;
+background-color: #23232e;
+}
+
+@media (max-width: 600px){
+    .secao-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    }
+    .logonav{
+    padding-top: 15px;
+    }  
+
+    .nav-list{
+    font-size: 10px;
+    margin-left: 20px;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    }
+
+    nav li{
+    margin: 5px;
+    }
+    nav{
+    height: 15vh;
+    }
+    .tabela{
+    font-size: 13px;
+    }
+  }
+
+  footer {
+  color: #ffff;
+  font-size: small;
+  }
+
+  th{
+    border: #23232e solid;
+    text-align-last: center;
+  }
+  td{
+    background-color: #CED4DA ;
+    border: #23232e solid;
+    text-align-last: center;
+    }
+
