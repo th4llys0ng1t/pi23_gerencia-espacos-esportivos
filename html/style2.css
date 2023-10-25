@@ -1,0 +1,51 @@
+.juncao{
+    display: flex;
+    width: 100%;
+    margin: 0 auto; 
+    }
+
+.msg2{
+    margin-left: 90px;
+    margin-top: 30px;
+    padding: 35px;
+    width: 550px;
+    border-radius: 40px;
+    background-color: #0f7a0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+.msg{
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 35px;
+    width: 550px;
+    border-radius: 40px;
+    background-color: #0f7a0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+
+ .content {
+	background-color:  rgb(43, 40, 40);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}

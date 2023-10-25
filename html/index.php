@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerencia Esportiva</title>
-    <!--<link rel="stylesheet" href="navbar.css">-->
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
@@ -19,15 +19,15 @@ body{
 }
 
   p{
-   background-color: #2c3547;
+   
     color: #ffff;
   }
   #navbar{
-    position: fixed;
+    position: absolute ;
     top: 0;
     left: 0;
     width: 100%;
-    height: 90px;
+    height: 100px;
     background-color: rgb(43, 40, 40);
   }
 
@@ -143,12 +143,38 @@ body{
   
         </div>
     </center>
-        <footer>
-          <br/>
-          <br/>
-          <br/>
-            <p><center>Copyright &copy Gerencia Esportiva - IFRN Cang 2023</center></p>
-        </footer>
+    <div class="juncao">
+    <div class="msg">
+    <p>Essa página visa sumáriamente apresentar um método de organização em questão dos espaços esportivos presentes no IFRN Campus Canguaretama RN.
+    Possuindo essa idéia em mente, alunos do quarto ano de informática se juntaram para a realização do site que seria responsável pela função de 
+    organização. Todo esse processo feito com tutoria do professor Bruno Gomes, que os passou tal projeto. </p>
+    </div>
+    <div class= msg2>
+      <p>O projeto foi feito com um código feito em PHP, HTML e CSS e também criado junto um banco de dados que foi feito inteiramente pelos alunos.
+        Com o intuito de conseguir ser um auxílio para o Campus e que os alunos que gostam de praticar esportes, consigam usar o espaço em momentos 
+        de aula ou não.
+      </p>
+    </div>
+
+    </div>
+        <footer class="main_footer container">
+    <!--content-->
+    <div class="content">
+    
+	<p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
+	<nav>
+		<ul>
+			<li><a href="#">Termos de uso</a></li>
+			<li><a href="#">Política de privacidade</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+    
+    </div><!--Contant-->
+    
+          
+</footer>
  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
