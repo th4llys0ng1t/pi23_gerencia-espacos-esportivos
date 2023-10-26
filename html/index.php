@@ -44,7 +44,7 @@ body{
 }
 
   .row{
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 70px;
     background-color: #ffff;
   }
