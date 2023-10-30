@@ -69,7 +69,7 @@ body{
         
       <nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
         <div class="container-fluid">
-            <a class="logonav" href="index.php"><img src="../img/logo.png" width="90" height="auto" alt="ícone de livro"></a>
+            <a class="logonav" href="index.php"><img src="../img/logo.png" width="90" height="auto" alt="ifrn"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
