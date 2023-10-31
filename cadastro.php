@@ -75,6 +75,9 @@ body{
   
   form [type="submit"]{
     background-color: #0f7a0f;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
 
   }
   a {
@@ -82,6 +85,27 @@ body{
     text-decoration: none;
     transition: 0.3s;
   }
+  .content {
+	background-color:  rgb(43, 40, 40);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.login img{
+  margin-top: -50px;
+}
     </style>
 </head>
 <body>
