@@ -3,7 +3,10 @@
     width: 100%;
     margin: 0 auto; 
     }
-
+.card{
+margin-top: 50px;
+}
+    
 .msg2{
     margin-left: 90px;
     margin-top: 30px;

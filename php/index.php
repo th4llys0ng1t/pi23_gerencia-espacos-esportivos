@@ -106,7 +106,7 @@ body{
           <div class="card" style="width: 18rem;">
           <img src="../img/campus.jpg" class="card-img-top" alt="quadra">
           <div class="card-body">
-          </a>  <p class="card-text"><center>QUADRA</center></p>
+          </a>  <p class="card-text"><center>GÍNASIO</center></p>
           </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ body{
           <div class="card" style="width: 18rem;">
             <img src="../img/campus.jpg" class="card-img-top" alt="volei">
             <div class="card-body">
-            </a> <p class="card-text"><center>QUADRA DE VÔLEI</center></p>
+            </a> <p class="card-text"><center>QUADRA DE AREIA</center></p>
             </div>
           </div>
         </div>
@@ -140,9 +140,49 @@ body{
                 </div>  
               </div>
             </div>
-  
+
+            <div class="col-md-6 col-xl-3" >
+            <a href="#">
+              <div class="card" style="width: 18rem;">
+                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <div class="card-body">
+                </a> <p class="card-text"><center>SALA DE MÚSICA</center></p>        
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3" >
+            <a href="#">
+              <div class="card" style="width: 18rem;">
+                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <div class="card-body">
+                </a> <p class="card-text"><center>ACADEMIA</center></p>        
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3" >
+            <a href="#">
+              <div class="card" style="width: 18rem;">
+                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <div class="card-body">
+                </a> <p class="card-text"><center>SALA DE LUTAS</center></p>        
+                </div>  
+              </div>
+            </div>
+
+            <div class="col-md-6 col-xl-3" >
+            <a href="#">
+              <div class="card" style="width: 18rem;">
+                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <div class="card-body">
+                </a> <p class="card-text"><center>SALA DE ARTES</center></p>        
+                </div>  
+              </div>
+            </div>
         </div>
     </center>
+    
     <div class="juncao">
     <div class="msg">
     <p>Essa página visa sumáriamente apresentar um método de organização em questão dos espaços esportivos presentes no IFRN Campus Canguaretama RN.
@@ -155,7 +195,7 @@ body{
         de aula ou não.
       </p>
     </div>
-
+   
     </div>
         <footer class="main_footer container">
     <!--content-->
