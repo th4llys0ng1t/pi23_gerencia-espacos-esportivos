@@ -129,7 +129,7 @@ li {
                 <a class="nav-link" href="#">LOGIN</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="#">PERFIL</a>
+                <a class="nav-link" href="perfil.php">PERFIL</a>
               </li>
             </ul>
             <form class="d-flex" role="search">

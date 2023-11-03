@@ -8,6 +8,40 @@
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <title>Perfil</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>  
+  a {
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  li {
+	display: inline-block;
+	margin: 0 10px;
+}
+  .content {
+	background-color:  #1f2124;
+	color: #ffff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+body{
+    margin: 20px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(43, 40, 40);
+}
+
+  p{
+   
+    color: #ffff;
+  }
+  
+  h2{
+   color: #ffff;
+  }
+</style>
 </head>
 
 <nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
@@ -41,8 +75,7 @@
   </nav>
   <br>
   <h2>
-    Perfil |
-    <small class="text-muted">Nome do usuário</small>
+  <p>Perfil | Nome do usuário</p>
   </h2>
   <br>
   <div class="list-group">
@@ -75,23 +108,23 @@
   <section class="">
     <!-- Footer -->
     <footer class="main_footer container">
-        <!--content-->
-        <div class="content">
-        
-        <p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
-        <nav>
-            <ul>
-                <li><a href="#">Termos de uso</a></li>
-                <li><a href="#">Política de privacidade</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        
-        </div><!--Contant-->
-        
-              
-    </footer>
+    <!--content-->
+    <div class="content">
+    
+	<p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
+	<nav>
+		<ul>
+			<li><a href="#">Termos de uso</a></li>
+			<li><a href="#">Política de privacidade</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+    
+    </div><!--Contant-->
+    
+          
+</footer>
     <!-- Footer -->
   </section>
 </body>
