@@ -10,51 +10,45 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="p-3 m-0 border-0 bd-example">
-
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="pag inicial.html">LAG Tour</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="logonav" href="index.php"><img src="img/logo.png" width="90" height="auto" alt="ifrn"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="pag inicial.html">Início</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item" style = "margin: 20px;">
+            <a class="nav-link" href="#">ÁREAS ESPORTIVAS</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="projeto_lelety.html">Destinos</a>
+          <li class="nav-item" style = "margin: 20px;">
+            <a class="nav-link" href="#">CADASTRO</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">Usuário</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
-              <li><a class="dropdown-item" href="cadastro_usuario.html">Cadastro</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Logout</a></li>
-            </ul>
+          <li class="nav-item" style = "margin: 20px;">
+            <a class="nav-link" href="#">LOGIN</a>
           </li>
+          <li class="nav-item" style = "margin: 20px;">
+            <a class="nav-link" href="#">PERFIL</a>
           </li>
         </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Digite sua busca" aria-label="Search">
+          <button class="btn btn-dark" type="submit">Buscar</button>
+        </form>
+        
       </div>
     </div>
   </nav>
   <br>
   <h2>
-    Administração |
+    Perfil |
     <small class="text-muted">Nome do usuário</small>
   </h2>
   <br>
   <div class="list-group">
     <a href="ProjetoAW-4B.html" class="list-group-item list-group-item-action active" aria-current="true">Início</a>
-    <a href="Passeios_Realizados.html" class="list-group-item list-group-item-action">Suas Viagens</a>
-    <a href="#" class="list-group-item list-group-item-action">Lista de Desejos</a>
+    <a href="Passeios_Realizados.html" class="list-group-item list-group-item-action">Suas reservas</a>
+    <a href="#" class="list-group-item list-group-item-action">Favoritadas</a>
     <a href="dados_pessoais.html" class="list-group-item list-group-item-action">Configurações</a>
   </div>
   <br>
@@ -80,25 +74,23 @@
   <br>
   <section class="">
     <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: #0a4275;">
-      <!-- Grid container -->
-      <div class="container p-4 pb-0">
-        <!-- Section: CTA -->
-        <section class="">
-          <p class="d-flex justify-content-center align-items-center" >
-            <span class="me-3">Todos os direitos reservados a INFO 2020.1</span>
-          </p>
-        </section>
-        <!-- Section: CTA -->
-      </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" href="https://instagram.com/info2020.01?igshid=OGQ2MjdiOTE=">INFO 2020.1</a>
-      </div>
-      <!-- Copyright -->
+    <footer class="main_footer container">
+        <!--content-->
+        <div class="content">
+        
+        <p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
+        <nav>
+            <ul>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        
+        </div><!--Contant-->
+        
+              
     </footer>
     <!-- Footer -->
   </section>
