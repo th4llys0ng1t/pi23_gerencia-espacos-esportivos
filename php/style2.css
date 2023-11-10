@@ -6,35 +6,19 @@
 .card{
 margin-top: 25px;
 }
-    
-.msg2{
-    margin-left: 90px;
-    margin-top: 30px;
-    padding: 35px;
-    width: 550px;
-    border-radius: 40px;
-    background-color: #0f7a0f;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-}
 
-.msg{
-    margin-left: 70px;
-    margin-top: 30px;
-    padding: 35px;
-    width: 550px;
-    border-radius: 40px;
-    background-color: #0f7a0f;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative;
-  }
-
- .content {
-	background-color:  rgb(43, 40, 40);
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
+  .content {
+    background-color:  rgb(43, 40, 40);
+    background-size: cover;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+    position: flex;
+    bottom:0;
+    left:0;
+    width: 100%;
+           
 }
 
 ul {

@@ -15,7 +15,8 @@ body{
     margin: 20px;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    background-color: rgb(43, 40, 40);
+    background-color: #ffff;
+    
 }
 
   p{
@@ -46,7 +47,7 @@ body{
   .area-login{
     margin-top: 30px;
     padding: 70px;
-    background-color: #ffff;
+    
     justify-content: center;
     align-items: center;
     height: 70vh;
@@ -54,6 +55,7 @@ body{
     align-items: center;
   }
   .login{
+          
           margin-top: 50px;
             display: flex;
             flex-direction: column;
@@ -86,11 +88,16 @@ body{
     transition: 0.3s;
   }
   .content {
-	background-color:  rgb(43, 40, 40);
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
+    background-color:  rgb(43, 40, 40);
+            color: #fff;
+            padding: 50px;
+            text-align: center;
+            margin-top: 50px;
+            position:absolute;
+            bottom:0;
+            left:0;
+            width: 100%;
+           
 }
 
 ul {

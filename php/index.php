@@ -15,7 +15,7 @@ body{
     margin: 20px;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    background-color: rgb(43, 40, 40);
+    background-color: #ffff;
 }
 
   p{
@@ -45,8 +45,7 @@ body{
 
   .row{
     margin-top: 60px;
-    padding: 70px;
-    background-color: #ffff;
+    padding: 70px; 
   }
   
   .card {
@@ -183,20 +182,6 @@ body{
         </div>
     </center>
     
-    <div class="juncao">
-    <div class="msg">
-    <p>Essa página visa sumáriamente apresentar um método de organização em questão dos espaços esportivos presentes no IFRN Campus Canguaretama RN.
-    Possuindo essa idéia em mente, alunos do quarto ano de informática se juntaram para a realização do site que seria responsável pela função de 
-    organização. Todo esse processo feito com tutoria do professor Bruno Gomes, que os passou tal projeto. </p>
-    </div>
-    <div class= msg2>
-      <p>O projeto foi feito com um código feito em PHP, HTML e CSS e também criado junto um banco de dados que foi feito inteiramente pelos alunos.
-        Com o intuito de conseguir ser um auxílio para o Campus e que os alunos que gostam de praticar esportes, consigam usar o espaço em momentos 
-        de aula ou não.
-      </p>
-    </div>
-   
-    </div>
         <footer class="main_footer container">
     <!--content-->
     <div class="content">
