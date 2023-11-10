@@ -73,6 +73,10 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
+.wrapp{
+  display: grid;
+  grid-template-columns: 200  px 1fr;
+}
 </style>
 </head>
 
@@ -110,11 +114,13 @@ a {
   <p>Perfil | Nome do usuário</p>
   </h2>
   <br>
-  <div class="list-group">
-    <a href="ProjetoAW-4B.html" class="list-group-item list-group-item-action active" aria-current="true">Início</a>
-    <a href="Passeios_Realizados.html" class="list-group-item list-group-item-action">Suas reservas</a>
-    <a href="#" class="list-group-item list-group-item-action">Favoritadas</a>
-    <a href="dados_pessoais.html" class="list-group-item list-group-item-action">Configurações</a>
+  <div class="wrapp">
+    <div class="list-group">
+      <a href="ProjetoAW-4B.html" class="list-group-item list-group-item-action active" aria-current="true">Início</a>
+      <a href="Passeios_Realizados.html" class="list-group-item list-group-item-action">Suas reservas</a>
+      <a href="#" class="list-group-item list-group-item-action">Favoritadas</a>
+      <a href="dados_pessoais.html" class="list-group-item list-group-item-action">Configurações</a>
+    </div>
   </div>
   <br>
   <br>
