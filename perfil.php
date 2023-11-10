@@ -41,6 +41,38 @@ body{
   h2{
    color: #ffff;
   }
+  form [type="submit"]{
+    background-color: #0f7a0f;
+  }
+  .content {
+    background-color:  rgb(43, 40, 40);
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+           
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
 </style>
 </head>
 
