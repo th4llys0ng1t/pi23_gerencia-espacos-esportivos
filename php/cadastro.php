@@ -152,7 +152,7 @@ li {
       <section class="area-login">
         <div class="login">
             <div>
-                <img src="img/logo.png" width="100">
+                <img src="../src/IMG/logo.png" width="100">
             </div>
             <form>
                
