@@ -111,9 +111,9 @@ li {
 <body>
     <header>
         
-      <nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
+    <nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
         <div class="container-fluid">
-            <a class="logonav" href="index.php"><img src="img/logo.png" width="90" height="auto" alt="ifrn"></a>
+            <a class="logonav" href="index.php"><img src="../src/IMG/logo.png" width="90" height="auto" alt="ifrn"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -123,13 +123,13 @@ li {
                 <a class="nav-link" href="#">ÁREAS ESPORTIVAS</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="#">CADASTRO</a>
+                <a class="nav-link" href="../cadastro.php">CADASTRO</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="autenticacao.php">LOGIN</a>
+                <a class="nav-link" href="../autenticacao.php">LOGIN</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="perfil.php">PERFIL</a>
+                <a class="nav-link" href="../perfil.php">PERFIL</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
