@@ -79,13 +79,13 @@ body{
                 <a class="nav-link" href="#">ÁREAS ESPORTIVAS</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="../cadastro.php">CADASTRO</a>
+                <a class="nav-link" href="cadastro.php">CADASTRO</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="../autenticacao.php">LOGIN</a>
+                <a class="nav-link" href="autenticacao.php">LOGIN</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="../perfil.php">PERFIL</a>
+                <a class="nav-link" href="perfil.php">PERFIL</a>
               </li>
             </ul>
             <form class="d-flex" role="search">

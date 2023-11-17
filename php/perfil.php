@@ -3,13 +3,13 @@
 <head>
   <title>Responsive Sidebar</title>
   <!-- Link Styles -->
-  <link rel="stylesheet" href="src/CSS/estilo.css">
+  <link rel="stylesheet" href="../src/CSS/estilo.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <div class="sidebar">
     <div class="logo_details">
-    <a class="logonav" href="index.php"><img src="src/IMG/logo.png" width="30" height="auto" alt="ifrn"></a>
+    <a class="logonav" href="index.php"><img src="../src/IMG/logo.png" width="30" height="auto" alt="ifrn"></a>
       <div class="logo_name">IFRN|CANG</div>
       <i class="bx bx-menu" id="btn"></i>
     </div>
