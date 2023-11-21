@@ -1,38 +1,103 @@
-.juncao{
-    display: flex;
-    width: 100%;
-    margin: 0 auto; 
-    }
-.card{
-margin-top: 25px;
+body{
+  margin: 20px;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffff;
 }
 
-  .content {
-    background-color:  rgb(43, 40, 40);
-    
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: 50px;
-    position: absolute;
-    bottom:0;
-    left:0;
-    width: 100%;
-           
+p{
+ 
+  color: #ffff;
+}
+#navbar{
+  position: absolute ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(43, 40, 40);
 }
 
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.ul{
+list-style: none;
+display: flex;
+align-items: center;
+height: 100%;
+margin: 0;
 }
 
-li {
-	display: inline-block;
-	margin: 0 10px;
+.li{
+margin-right: 10px;
 }
 
+.row{
+  margin-top: 20px;
+  padding: 60px; 
+}
+
+
+form [type="submit"]{
+  background-color: #0f7a0f;
+
+}
 a {
-	color: #fff;
-	text-decoration: none;
+  color: #ffff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.card{
+margin-top: 55px;
+}
+
+.rodape{
+  background-color: rgb(43, 40, 40);
+  color: white;
+  height: auto;
+  width: 100%;
+  font-size: 14px;
+  font-family: helvetica;
+  position: absolute;
+}
+.rodape a{
+  text-decoration: none;
+  color: white;
+}
+.rodape p{
+  margin-bottom: 5px;
+}
+.rodape-div{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: auto;
+  align-items: center;
+  padding: 40px;
+  
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+  display: flex;
+  width: 25% ;
+  padding: 5px;
+}
+.rodape span{
+  font-size: 20px;
+  color: white;
+}
+.rodape-direitos{
+  width: 100% ;
+  background-color:#0f7a0f;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  position:absolute;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+      width: 100%;
+      padding: 10px;
+  }
+  .rodape-div{
+      padding: 60px 0px 40px 0px;
+  }
 }

@@ -11,56 +11,10 @@
 
     <style>
 
-body{
-    margin: 20px;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #ffff;
+.card {
+  background-color: #0f7a0f;
+  color: #ffff;
 }
-
-  p{
-   
-    color: #ffff;
-  }
-  #navbar{
-    position: absolute ;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(43, 40, 40);
-  }
-
-  .ul{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  margin: 0;
-}
-
-.li{
-  margin-right: 10px;
-}
-
-  .row{
-    margin-top: 0px;
-    padding: 60px; 
-  }
-  
-  .card {
-    background-color: #0f7a0f;
-    color: #ffff;
-  }
-  form [type="submit"]{
-    background-color: #0f7a0f;
-
-  }
-  a {
-    color: #ffff;
-    text-decoration: none;
-    transition: 0.3s;
-  }
   
     </style>
 </head>
@@ -76,7 +30,7 @@ body{
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="#">ÁREAS ESPORTIVAS</a>
+                <a class="nav-link" href="index.php">ÁREAS ESPORTIVAS</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="cadastro.php">CADASTRO</a>
@@ -104,7 +58,7 @@ body{
         <div class="col-md-6 col-xl-3" >
           <a href="#">
           <div class="card" style="width: 18rem;">
-          <img src="../img/campus.jpg" class="card-img-top" alt="quadra">
+          <img src="../src/IMG/campus.jpg" class="card-img-top" alt="quadra">
           <div class="card-body">
           </a>  <p class="card-text"><center>GÍNASIO</center></p>
           </div>
@@ -114,7 +68,7 @@ body{
         <div class="col-md-6 col-xl-3" >
           <a href="#">
           <div class="card" style="width: 18rem;">
-            <img src="../img/campus.jpg" class="card-img-top" alt="volei">
+            <img src="../src/IMG/campus.jpg" class="card-img-top" alt="volei">
             <div class="card-body">
             </a> <p class="card-text"><center>QUADRA DE AREIA</center></p>
             </div>
@@ -124,7 +78,7 @@ body{
         <div class="col-md-6 col-xl-3" >
           <a href="#">
             <div class="card" style="width: 18rem;">
-              <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+              <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
               <div class="card-body">
               </a> <p class="card-text"><center>PISCINA</center></p>        
               </div>  
@@ -134,7 +88,7 @@ body{
           <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE JOGOS</center></p>        
                 </div>  
@@ -144,7 +98,7 @@ body{
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE MÚSICA</center></p>        
                 </div>  
@@ -154,7 +108,7 @@ body{
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>ACADEMIA</center></p>        
                 </div>  
@@ -164,7 +118,7 @@ body{
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE LUTAS</center></p>        
                 </div>  
@@ -174,7 +128,7 @@ body{
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../img/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE ARTES</center></p>        
                 </div>  
@@ -183,23 +137,46 @@ body{
         </div>
     </center>
     
-        <footer class="main_footer container">
-    <!--content-->
-    <div class="content">
-    
-	<p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
-	<nav>
-		<ul>
-			<li><a href="#">Termos de uso</a></li>
-			<li><a href="#">Política de privacidade</a></li>
-			<li><a href="#">Sobre nós</a></li>
-			<li><a href="#">Contato</a></li>
-		</ul>
-	</nav>
-    
-    </div><!--Contant-->
-    
-          
+    <footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <span><b>LOGO</b></span>
+                <p>SIA Trecho 5 lote 000 bloco z sala 900 - Guará, Brasília - DF, 70000-010</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+                <!-- elemento -->
+                <span><b>Contatos</b></span>
+                <p>contato@na.na</p>
+                <p>+55 63 99200-0000</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+                <!-- elemento -->
+                <span><b>Links</b></span>
+                <p><a href="#servicos">Serviços</a></p>
+                <p><a href="#empresa">Empresa</a></p>
+                <p><a href="#sobre">Sobre</a></p>
+            </div>
+        </div>
+
+        <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+                <!-- elemento -->
+                <span><b>Outros</b></span>
+                <p>Políticas de Privacidade</p>
+            </div>
+        </div>
+
+    </div>
+    <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
 </footer>
  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

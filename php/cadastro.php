@@ -5,44 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerencia Esportiva</title>
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/CSS/style2.css">
+    <link rel="stylesheet" href="../src/CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <style>
-
-body{
-    margin: 20px;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    background-color: #ffff;
-    
-}
-
-  p{
-   
-    color: #ffff;
-  }
-  #navbar{
-    position: absolute ;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(43, 40, 40);
-  }
-
-  .ul{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  margin: 0;
-}
-
-.li{
-  margin-right: 10px;
-}
+  <style>
 
   .area-login{
     margin-top: 30px;
@@ -71,9 +38,7 @@ body{
            border-radius:15px;
             flex-direction: column;
         }
-  form{
-    background-color: rgb(43, 40, 40);
-  }
+
   
   form [type="submit"]{
     background-color: #0f7a0f;
@@ -82,34 +47,8 @@ body{
     color: white;
 
   }
-  a {
-    color: #ffff;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  .content {
-    background-color:  rgb(43, 40, 40);
-            color: #fff;
-            padding: 50px;
-            text-align: center;
-            margin-top: 50px;
-            position:absolute;
-            bottom:0;
-            left:0;
-            width: 100%;
-           
-}
 
-ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-li {
-	display: inline-block;
-	margin: 0 10px;
-}
+  
 .login img{
   margin-top: -50px;
 }
@@ -127,7 +66,7 @@ li {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="#">ÁREAS ESPORTIVAS</a>
+                <a class="nav-link" href="index.php">ÁREAS ESPORTIVAS</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="cadastro.php">CADASTRO</a>
@@ -166,24 +105,46 @@ li {
         </div>
         </center>
     </div>
+    <footer class="rodape" id="contato">
+    <div class="rodape-div">
 
-        <footer class="main_footer container">
-    <!--content-->
-    <div class="content">
-    
-	<p> Copyright &copy Gerencia Esportiva - IFRN Cang 2023</p>
-	<nav>
-		<ul>
-			<li><a href="#">Termos de uso</a></li>
-			<li><a href="#">Política de privacidade</a></li>
-			<li><a href="#">Sobre nós</a></li>
-			<li><a href="#">Contato</a></li>
-		</ul>
-	</nav>
-    
-    </div><!--Contant-->
-    
-          
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <span><b>LOGO</b></span>
+                <p>SIA Trecho 5 lote 000 bloco z sala 900 - Guará, Brasília - DF, 70000-010</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+                <!-- elemento -->
+                <span><b>Contatos</b></span>
+                <p>contato@na.na</p>
+                <p>+55 63 99200-0000</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+                <!-- elemento -->
+                <span><b>Links</b></span>
+                <p><a href="#servicos">Serviços</a></p>
+                <p><a href="#empresa">Empresa</a></p>
+                <p><a href="#sobre">Sobre</a></p>
+            </div>
+        </div>
+
+        <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+                <!-- elemento -->
+                <span><b>Outros</b></span>
+                <p>Políticas de Privacidade</p>
+            </div>
+        </div>
+
+    </div>
+    <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
 </footer>
  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

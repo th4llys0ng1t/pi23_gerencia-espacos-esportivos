@@ -301,3 +301,55 @@ body{
   left:250px;
   width: calc(100% - 250px);
 }
+.rodape{
+  background-color: rgb(43, 40, 40);
+  color: white;
+  height: auto;
+  width: 100%;
+  font-size: 14px;
+  font-family: helvetica;
+  position:absolute;
+}
+.rodape a{
+  text-decoration: none;
+  color: white;
+}
+.rodape p{
+  margin-bottom: 5px;
+}
+.rodape-div{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width:100%;
+  margin: auto;
+  align-items: center;
+  padding: 40px;
+  
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+  display: flex;
+  width: 25% ;
+  padding: 90px;
+}
+.rodape span{
+  font-size: 20px;
+  color: white;
+}
+.rodape-direitos{
+  width: 100% ;
+  background-color:#0f7a0f;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+  position:absolute;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+      width: 100%;
+      padding: 10px;
+  }
+  .rodape-div{
+      padding: 60px 0px 40px 0px;
+  }
+}
