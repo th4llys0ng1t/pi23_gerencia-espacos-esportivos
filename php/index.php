@@ -143,8 +143,8 @@
         <div class="rodape-div-1">
             <div class="rodape-div-1-coluna">
                 <!-- elemento -->
-                <span><b>LOGO</b></span>
-                <p>SIA Trecho 5 lote 000 bloco z sala 900 - Guará, Brasília - DF, 70000-010</p>
+                <span><a class="logo" href="index.php"><img src="../src/IMG/logo.png" width="70" height="auto" alt="ifrn"></a></span>
+                <p>160 BR-101, S/N - Areia Branca, </br>Canguaretama - RN, 59190-000</p>
             </div>
         </div>
 
@@ -152,8 +152,8 @@
             <div class="rodape-div-2-coluna">
                 <!-- elemento -->
                 <span><b>Contatos</b></span>
-                <p>contato@na.na</p>
-                <p>+55 63 99200-0000</p>
+                <p>ifrn@gmail.com</p>
+                <p>+55 (84) 99999-9999</p>
             </div>
         </div>
 
@@ -161,9 +161,9 @@
             <div class="rodape-div-3-coluna">
                 <!-- elemento -->
                 <span><b>Links</b></span>
-                <p><a href="#servicos">Serviços</a></p>
-                <p><a href="#empresa">Empresa</a></p>
-                <p><a href="#sobre">Sobre</a></p>
+                <p><a href="https://portal.ifrn.edu.br/servicos/">Serviços</a></p>
+                <p><a href="https://portal.ifrn.edu.br/campus/canguaretama/">instituto</a></p>
+                <p><a href="https://portal.ifrn.edu.br/">Sobre</a></p>
             </div>
         </div>
 
@@ -176,7 +176,7 @@
         </div>
 
     </div>
-    <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+    <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados ao IFRN.</p>
 </footer>
  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
