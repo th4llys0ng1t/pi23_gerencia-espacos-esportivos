@@ -130,7 +130,7 @@
                 <!-- elemento -->
                 <span><b>Links</b></span>
                 <p><a href="https://portal.ifrn.edu.br/servicos/">Serviços</a></p>
-                <p><a href="https://portal.ifrn.edu.br/campus/canguaretama/">instituto</a></p>
+                <p><a href="https://portal.ifrn.edu.br/campus/canguaretama/">Instituto</a></p>
                 <p><a href="https://portal.ifrn.edu.br/">Sobre</a></p>
             </div>
         </div>
