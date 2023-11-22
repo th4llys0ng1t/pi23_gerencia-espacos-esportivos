@@ -6,9 +6,9 @@ body{
 }
 
 p{
- 
   color: #ffff;
 }
+
 #navbar{
   position: absolute ;
   top: 0;
@@ -19,15 +19,15 @@ p{
 }
 
 .ul{
-list-style: none;
-display: flex;
-align-items: center;
-height: 100%;
-margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
 }
 
 .li{
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 .row{
@@ -38,15 +38,16 @@ margin-right: 10px;
 
 form [type="submit"]{
   background-color: #0f7a0f;
-
 }
-a {
+
+a{
   color: #ffff;
   text-decoration: none;
   transition: 0.3s;
 }
+
 .card{
-margin-top: 55px;
+  margin-top: 55px;
 }
 
 .rodape{
@@ -58,31 +59,36 @@ margin-top: 55px;
   font-family: helvetica;
   position: absolute;
 }
+
 .rodape a{
   text-decoration: none;
   color: white;
 }
+
 .rodape p{
   margin-bottom: 5px;
 }
+
 .rodape-div{
   display: inline-flex;
   flex-wrap: wrap;
   width:100%;
   margin: auto;
   align-items: center;
-  padding: 40px;
-  
+  padding: 40px; 
 }
+
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
   display: flex;
   width: 25% ;
   padding: 5px;
 }
+
 .rodape span{
   font-size: 20px;
   color: white;
 }
+
 .rodape-direitos{
   width: 100% ;
   background-color:#0f7a0f;
@@ -91,12 +97,14 @@ margin-top: 55px;
   text-align: center;
   position:absolute;
 }
+
 /*mobile*/
 @media (max-width: 768px) {
   .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
       width: 100%;
       padding: 10px;
   }
+  
   .rodape-div{
       padding: 60px 0px 40px 0px;
   }
