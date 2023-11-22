@@ -9,7 +9,6 @@
   --color-mec:#fff
 }
 
-
 *{
   padding: 0%;
   margin: 0%;
@@ -48,8 +47,6 @@ body{
   opacity: 0;
   transition: all 0.5s ease ;
 }
-
-
 
 .sidebar .logo_details .logo_name{
   color:var(--color-white);
