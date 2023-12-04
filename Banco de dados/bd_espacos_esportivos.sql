@@ -38,7 +38,8 @@ CREATE TABLE IF NOT EXISTS administrador(
     NOME varchar(100),
     MATRICULA varchar(30), 
     USUARIO varchar(90),
-    SENHA varchar(90)
+    SENHA varchar(90),
+    CONFIRMAR_SENHA varchar(90)
 ); 
 
 

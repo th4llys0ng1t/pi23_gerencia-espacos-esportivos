@@ -58,10 +58,11 @@
                 <img src="../src/IMG/logo.png" width="100">
             </div>
             <form>
-                <input type="text" name="nome" placeholder="Email Escolar" autofocus>
-                <input type="text" name="nome" placeholder="Matrícula" autofocus>
-                <input type="password" name="senha" placeholder="Senha" autofocus>
-                <input type="password" name="senha" placeholder="Confirme sua senha" autofocus>
+                <input type="text" name="email" placeholder="Email Escolar" autofocus>
+                <input type="text" name="matricula" placeholder="Matrícula" autofocus>
+                <input type="text" name="usuario" placeholder="Usuário" autofocus>
+                <input type="password" name="senha1" placeholder="Senha" autofocus>
+                <input type="password" name="senha2" placeholder="Confirme sua senha" autofocus>
                 <input type="submit" value="entrar">
             </form>
         </div>
