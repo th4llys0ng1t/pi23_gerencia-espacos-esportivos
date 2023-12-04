@@ -35,13 +35,11 @@ CREATE TABLE IF NOT EXISTS tipo_solitacao(
 ); 
 
 CREATE TABLE IF NOT EXISTS administrador( 
-    NOME varchar(100),
-    MATRICULA varchar(30), 
+    EMAIL varchar(100),
+    MATRICULA varchar(30) primary key, 
     USUARIO varchar(90),
-    SENHA varchar(90),
-    CONFIRMAR_SENHA varchar(90)
+    SENHA varchar(90)
 ); 
-
 
 
 
