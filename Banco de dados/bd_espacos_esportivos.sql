@@ -23,10 +23,10 @@ CREATE TABLE IF NOT EXISTS solicitacoes(
     HORA_INICIO time,
     DATA_FIM date,
     HORA_FIM time,
-    DATA_HORA_REGISTRO date, time, 
+    DATA_REGISTRO date, 
+    HORA_REGISTRO time,
     foreign key (ID_ESPACO) references espacos(ID),  
-    foreign key (ID_TIPO_SOLICITACOES) references tipo_solitacao(ID), 
-    
+    foreign key (ID_TIPO_SOLICITACOES) references tipo_solitacao(ID) 
 );  
 
 CREATE TABLE IF NOT EXISTS tipo_solitacao( 
