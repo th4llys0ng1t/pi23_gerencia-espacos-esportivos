@@ -5,6 +5,16 @@
     <title>Gerencia Esportiva</title>
     <link rel="stylesheet" href="../src/CSS/style2.css">
     <link rel="stylesheet" href="../src/CSS/style.css">
+    <?php
+      if(isset($_POST['entrar'])){
+        include "../banco/conexao.php";
+        $usuario=$_POST['nome'];
+        $senha=$_POST['senha'];
+        conectar();
+        
+      
+    }
+    ?>
    
   <style>
     .area-login{
@@ -61,14 +71,15 @@
             <div>
                 <img src="../src/IMG/logo.png" width="100">
             </div>
-            <form>
+            <form method="post">
                 <input type="text" name="nome" placeholder="Matrícula" autofocus>
                 <input type="password" name="senha" placeholder="Senha" autofocus>
-                <input type="submit" value="entrar">
+                <input type="submit" name="entrar">
             </form>
         </div>
     </center>
     </div>
+ 
 
     <?php include '../base/rodape.php'?>
     
