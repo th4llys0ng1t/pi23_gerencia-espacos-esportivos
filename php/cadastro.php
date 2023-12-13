@@ -57,7 +57,7 @@
             <div>
                 <img src="../src/IMG/logo.png" width="100">
             </div>
-            <form action="../php_bd/cadastro_bd.php" method="post">
+            <form action="cadastro_bd.php" method="post">
                 <input type="text" name="email" placeholder="Email Escolar" autofocus>
                 <input type="text" name="matricula" placeholder="Matrícula" autofocus>
                 <input type="text" name="usuario" placeholder="Usuário" autofocus>
