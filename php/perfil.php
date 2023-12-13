@@ -19,6 +19,8 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1>Perfil do Usuário</h1>
+
+
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -70,8 +72,9 @@
                   
                   <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de E-mail</label>
-                    <input type="email" class="form-control" name="email" id="email" required value="usuario@exemplo.com.br" disabled>
+                    <input type="email" class="form-control" name="email" id="email" required value=  disabled>
                   </div>
+               
                   <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
                     <input type="password" class="form-control" name="senha" id="telefone" required value="12345678">
