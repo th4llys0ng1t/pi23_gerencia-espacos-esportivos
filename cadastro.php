@@ -57,7 +57,7 @@
             <div>
                 <img src="src/IMG/logo.png" width="100">
             </div>
-            <form action="cadastro_bd.php" method="post">
+            <form action="php_bd/cadastro_bd.php" method="post">
                 <input type="text" name="email" placeholder="Email Escolar" autofocus>
                 <input type="text" name="matricula" placeholder="Matrícula" autofocus>
                 <input type="text" name="usuario" placeholder="Usuário" autofocus>
@@ -67,7 +67,12 @@
         </div>
       </center>
     </div>
-    <?php include 'base/rodape.php'?>
+    <?php 
+    include 'base/rodape.php';
+
+    
+    
+    ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

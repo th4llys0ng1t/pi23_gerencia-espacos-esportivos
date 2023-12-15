@@ -6,14 +6,8 @@
     <link rel="stylesheet" href="src/CSS/style2.css">
     <link rel="stylesheet" href="src/CSS/style.css">
     <?php
-      if(isset($_POST['entrar'])){
-        include "banco/conexao.php";
-        $usuario=$_POST['nome'];
-        $senha=$_POST['senha'];
-        conectar();
-        
-      
-    }
+
+    
     ?>
    
   <style>
