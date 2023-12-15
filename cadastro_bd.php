@@ -11,12 +11,7 @@
     <?php 
         include "banco/conexao2.php";
         conectar();
-       
-
     ?>
-
-
-
- 
+    
 </body>
 </html>

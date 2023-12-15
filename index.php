@@ -30,16 +30,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="index.php">ÁREAS ESPORTIVAS</a>
-              </li>
-              <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="cadastro.php">CADASTRO</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="autenticacao.php">LOGIN</a>
-              </li>
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="perfil.php">PERFIL</a>
               </li>
             </ul>
             <form class="d-flex" role="search">

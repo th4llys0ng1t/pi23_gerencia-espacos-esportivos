@@ -18,6 +18,9 @@
               <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="perfil.php">PERFIL</a>
               </li>
+              <li class="nav-item" style = "margin: 20px;">
+                <a class="nav-link" href="cadastro.php">SAIR</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Digite sua busca" aria-label="Search">
