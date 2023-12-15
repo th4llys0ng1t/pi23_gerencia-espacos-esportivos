@@ -4,7 +4,7 @@
         <div class="rodape-div-1">
             <div class="rodape-div-1-coluna">
                 <!-- elemento -->
-                <span><a class="logo" href="index.php"><img src="../src/IMG/logo.png" width="70" height="auto" alt="ifrn"></a></span>
+                <span><a class="logo" href="index.php"><img src="src/IMG/logo.png" width="70" height="auto" alt="ifrn"></a></span>
                 <p>160 BR-101, S/N - Areia Branca, </br>Canguaretama - RN, 59190-000</p>
             </div>
         </div>

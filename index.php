@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerencia Esportiva</title>
-    <link rel="stylesheet" href="../src/CSS/style2.css">
-    <link rel="stylesheet" href="../src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/style2.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <style>
@@ -23,7 +23,7 @@
         
       <nav class="col-md col-xl navbar navbar-expand-lg navbar-dark " id = "navbar">
         <div class="container-fluid">
-            <a class="logonav" href="index.php"><img src="../src/IMG/logo.png" width="90" height="auto" alt="ifrn"></a>
+            <a class="logonav" href="index.php"><img src="src/IMG/logo.png" width="90" height="auto" alt="ifrn"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -58,7 +58,7 @@
         <div class="col-md-6 col-xl-3" >
           <a href="#">
           <div class="card" style="width: 18rem;">
-          <img src="../src/IMG/campus.jpg" class="card-img-top" alt="quadra">
+          <img src="src/IMG/campus.jpg" class="card-img-top" alt="quadra">
           <div class="card-body">
           </a>  <p class="card-text"><center>GÍNASIO</center></p>
           </div>
@@ -68,7 +68,7 @@
         <div class="col-md-6 col-xl-3" >
           <a href="#">
           <div class="card" style="width: 18rem;">
-            <img src="../src/IMG/campus.jpg" class="card-img-top" alt="volei">
+            <img src="src/IMG/campus.jpg" class="card-img-top" alt="volei">
             <div class="card-body">
             </a> <p class="card-text"><center>QUADRA DE AREIA</center></p>
             </div>
@@ -78,7 +78,7 @@
         <div class="col-md-6 col-xl-3" >
           <a href="#">
             <div class="card" style="width: 18rem;">
-              <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+              <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
               <div class="card-body">
               </a> <p class="card-text"><center>PISCINA</center></p>        
               </div>  
@@ -88,7 +88,7 @@
           <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE JOGOS</center></p>        
                 </div>  
@@ -98,7 +98,7 @@
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE MÚSICA</center></p>        
                 </div>  
@@ -108,7 +108,7 @@
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>ACADEMIA</center></p>        
                 </div>  
@@ -118,7 +118,7 @@
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE LUTAS</center></p>        
                 </div>  
@@ -128,7 +128,7 @@
             <div class="col-md-6 col-xl-3" >
             <a href="#">
               <div class="card" style="width: 18rem;">
-                <img src="../src/IMG/campus.jpg" class="card-img-top" alt="piscina">
+                <img src="src/IMG/campus.jpg" class="card-img-top" alt="piscina">
                 <div class="card-body">
                 </a> <p class="card-text"><center>SALA DE ARTES</center></p>        
                 </div>  
@@ -143,7 +143,7 @@
         <div class="rodape-div-1">
             <div class="rodape-div-1-coluna">
                 <!-- elemento -->
-                <span><a class="logo" href="index.php"><img src="../src/IMG/logo.png" width="70" height="auto" alt="ifrn"></a></span>
+                <span><a class="logo" href="index.php"><img src="src/IMG/logo.png" width="70" height="auto" alt="ifrn"></a></span>
                 <p>160 BR-101, S/N - Areia Branca, </br>Canguaretama - RN, 59190-000</p>
             </div>
         </div>

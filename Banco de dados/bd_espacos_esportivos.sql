@@ -12,6 +12,11 @@ CREATE TABLE IF NOT EXISTS turmas(
     NOME varchar(100)
 );  
 
+CREATE TABLE IF NOT EXISTS tipo_solitacao( 
+	ID int not null auto_increment primary key, 
+    NOME varchar(100)
+); 
+
 CREATE TABLE IF NOT EXISTS solicitacoes( 
 	ID int not null auto_increment primary key, 
     ID_ESPACO int, 
@@ -29,10 +34,7 @@ CREATE TABLE IF NOT EXISTS solicitacoes(
     foreign key (ID_TIPO_SOLICITACOES) references tipo_solitacao(ID) 
 );  
 
-CREATE TABLE IF NOT EXISTS tipo_solitacao( 
-	ID int not null auto_increment primary key, 
-    NOME varchar(100)
-); 
+
 
 CREATE TABLE IF NOT EXISTS administrador( 
     EMAIL varchar(100),

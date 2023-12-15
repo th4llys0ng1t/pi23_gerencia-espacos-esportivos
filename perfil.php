@@ -3,12 +3,12 @@
 <head>
   <title>Gerencia Esportiva</title>
   <!-- Link Styles -->
-  <link rel="stylesheet" href="../src/CSS/style2.css">
+  <link rel="stylesheet" href="src/CSS/style2.css">
     
-  <?php include '../base/head.php'?>
+  <?php include 'base/head.php'?>
 </head>
 <body>
-<?php include '../base/menu.php'?>
+<?php include 'base/menu.php'?>
 <br>
 <br><br>
   <!-- Content Wrapper. Contains page content -->
@@ -168,7 +168,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body p-0" style="text-align: center; margin-bottom: 98px">
-                <img src="../src/IMG/usuario_teste.png" alt="<?php echo $foto; ?>" title="<?php echo $foto; ?>" style="width: 200px; border-radius: 100%; margin-top: 30px">
+                <img src="src/IMG/usuario_teste.png" alt="<?php echo $foto; ?>" title="<?php echo $foto; ?>" style="width: 200px; border-radius: 100%; margin-top: 30px">
                 <h1>Nome do usuário</h1>
                 <strong>usuario@exemplo.com.br</strong>
                 
@@ -190,6 +190,6 @@
   
 <br><br><br><br><br><br><br><br><br>
 
-  <?php include '../base/rodape.php'?>
+  <?php include 'base/rodape.php'?>
 </body>
 </html>
