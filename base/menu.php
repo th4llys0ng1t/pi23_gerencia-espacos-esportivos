@@ -19,10 +19,10 @@
               ?>
 
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="cadastro.php">CADASTRO</a>
+                <a class="nav-link" href="perfil.php">PERFIL</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="autenticacao.php">LOGIN</a>
+                <a class="nav-link" href="cadastro.php">SAIR</a>
               </li>
               
               <?php 
@@ -30,10 +30,10 @@
               ?>
 
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="perfil.php">PERFIL</a>
+                <a class="nav-link" href="cadastro.php">CADASTRO</a>
               </li>
               <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="cadastro.php">SAIR</a>
+                <a class="nav-link" href="autenticacao.php">LOGIN</a>
               </li>
 
               <?php 
