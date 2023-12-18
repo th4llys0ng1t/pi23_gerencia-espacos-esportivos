@@ -9,9 +9,9 @@
               <li class="nav-item" style = "margin: 20px;">
                 <a class="nav-link" href="index.php">ÁREAS ESPORTIVAS</a>
               </li>
-              
+
               <?php 
-                if(session_id() = ''){
+                if(session_id() == ''){
                   session_start();
                 }
 
