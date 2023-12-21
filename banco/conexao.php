@@ -11,9 +11,6 @@ function conectar()
 
     if ($conn->connect_error) {
         die("a conexão falhou!" . $conn->connect_error);
-
-    }else {
-        header('Location: ../php/perfil.php');
     }
 
     return $conn;

@@ -13,7 +13,7 @@
     $conn=conectar();
 
     //SQL de inserção no banco
-    $sql="SELECT * FROM administradores WHERE MATRICULA = '$matricula' AND SENHA = '$senha_cripto'";
+    $sql="SELECT * FROM administrador WHERE MATRICULA = '$matricula' AND SENHA = '$senha_cripto'";
     $resultado=$conn -> query($sql);
 
     //teste de acerto ou erro

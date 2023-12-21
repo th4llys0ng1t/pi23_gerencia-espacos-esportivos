@@ -65,8 +65,8 @@
             <div>
                 <img src="src/IMG/logo.png" width="100">
             </div>
-            <form method="post">
-                <input type="text" name="nome" placeholder="Matrícula" autofocus>
+            <form action="php_bd/autenticacao_bd.php" method="post">
+                <input type="text" name="matricula" placeholder="Matrícula" autofocus>
                 <input type="password" name="senha" placeholder="Senha" autofocus>
                 <input type="submit" name="entrar">
             </form>
