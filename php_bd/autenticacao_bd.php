@@ -20,7 +20,7 @@
     if ($resultado -> num_rows > 0) {
         while ($row=$resultado -> fetch_assoc) {
             session_start();
-            $_SESSION["matricula"] = $row ["USUARIO"];
+            $_SESSION["matricula"] = $row["USUARIO"];
         }
         desconectar($conn);
         header("Location: ../perfil.php");

@@ -6,35 +6,33 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="index.php">ÁREAS ESPORTIVAS</a>
-              </li>
+              
 
-              <?php 
-                if(session_id() == ''){
-                  session_start();
-                }
-
+              <?php
+                 
+                session_start();
                 if(isset($_SESSION["matricula"])){
               ?>
-
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="perfil.php">PERFIL</a>
-              </li>
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="cadastro.php">SAIR</a>
-              </li>
+                  <li class="nav-item" style = "margin: 20px;">
+                    <a class="nav-link" href="../areas_esportivas.php">ÁREAS ESPORTIVAS</a>
+                  </li>
+                  <li class="nav-item" style = "margin: 20px;">
+                    <a class="nav-link" href="../perfil.php">PERFIL</a>
+                  </li>
+                  <li class="nav-item" style = "margin: 20px;">
+                    <a class="nav-link" href="../index.php">SAIR</a>
+                  </li>
               
               <?php 
                 }else{
               ?>
 
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="cadastro.php">CADASTRO</a>
-              </li>
-              <li class="nav-item" style = "margin: 20px;">
-                <a class="nav-link" href="autenticacao.php">LOGIN</a>
-              </li>
+                <li class="nav-item" style = "margin: 20px;">
+                  <a class="nav-link" href="../cadastro.php">CADASTRO</a>
+                </li>
+                <li class="nav-item" style = "margin: 20px;">
+                  <a class="nav-link" href="../autenticacao.php">LOGIN</a>
+                </li>
 
               <?php 
                 }
