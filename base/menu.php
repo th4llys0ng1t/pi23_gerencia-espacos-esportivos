@@ -10,17 +10,18 @@
 
               <?php
                  
-                session_start();
+                if(session_id() == '')
+                  session_start();
                 if(isset($_SESSION["matricula"])){
               ?>
                   <li class="nav-item" style = "margin: 20px;">
-                    <a class="nav-link" href="../areas_esportivas.php">ÁREAS ESPORTIVAS</a>
+                    <a class="nav-link" href="areas_esportivas.php">ÁREAS ESPORTIVAS</a>
                   </li>
                   <li class="nav-item" style = "margin: 20px;">
-                    <a class="nav-link" href="../perfil.php">PERFIL</a>
+                    <a class="nav-link" href="perfil.php">PERFIL</a>
                   </li>
                   <li class="nav-item" style = "margin: 20px;">
-                    <a class="nav-link" href="../index.php">SAIR</a>
+                    <a class="nav-link" href="sessao/remover_sessao.php">SAIR</a>
                   </li>
               
               <?php 
@@ -28,10 +29,10 @@
               ?>
 
                 <li class="nav-item" style = "margin: 20px;">
-                  <a class="nav-link" href="../cadastro.php">CADASTRO</a>
+                  <a class="nav-link" href="cadastro.php">CADASTRO</a>
                 </li>
                 <li class="nav-item" style = "margin: 20px;">
-                  <a class="nav-link" href="../autenticacao.php">LOGIN</a>
+                  <a class="nav-link" href="autenticacao.php">LOGIN</a>
                 </li>
 
               <?php 
@@ -41,7 +42,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Digite sua busca" aria-label="Search">
-              <button class="btn btn-dark" type="submit">Buscar</button>
+              <button class="btn btn-dark" type="submit">BUSCAR</button>
             </form>
             
           </div>

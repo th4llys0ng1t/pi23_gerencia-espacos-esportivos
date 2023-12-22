@@ -1,5 +1,5 @@
 <?php 
-
+    
     //recolhendo os dados digitados pelo usuário
     $matricula=$_POST['matricula'];
     $senha=$_POST['senha'];
@@ -15,12 +15,13 @@
     //SQL de inserção no banco
     $sql="SELECT * FROM administrador WHERE MATRICULA = '$matricula' AND SENHA = '$senha_cripto'";
     $resultado=$conn -> query($sql);
-
+    
     //teste de acerto ou erro
     if ($resultado -> num_rows > 0) {
-        while ($row=$resultado -> fetch_assoc) {
-            session_start();
-            $_SESSION["matricula"] = $row["USUARIO"];
+        while ($row=$resultado -> fetch_assoc()) {
+            if(session_id() == '')
+                session_start();
+                $_SESSION["matricula"] = $row["USUARIO"];
         }
         desconectar($conn);
         header("Location: ../perfil.php");
@@ -30,7 +31,5 @@
         header("Location: ../autenticacao.php");
         die();
     }
-
-
-
+    
 ?>
