@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include "base/head.php"?>
+    <link rel="stylesheet" href="src/CSS/style2.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerencia Esportiva</title>
-    <link rel="stylesheet" href="src/CSS/style2.css">
-    <link rel="stylesheet" href="src/CSS/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>FAÇA SEUS AGENDAMENTOS</title>
 
     <style>
-      .card {
-        background-color: #0f7a0f;
-        color: #ffff;
+      .incio{
+          margin-top: 10%;
+          margin-bottom: 9%;
       }
     </style>
 </head>
 <body>
-      
-      
+    <?php include 'base/menu.php'?>
+    <center>
+            <div class="incio">
+                <h1>FAÇA O SEU AGENDAMENTO</h1>
+            </div>
+    </center>
+    <h2>Adicione espaços</h2>
+    <a class="nav-link" href="p_espacos.php">espaços</a>
 </body>
 </html>

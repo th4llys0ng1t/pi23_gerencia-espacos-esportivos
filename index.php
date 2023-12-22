@@ -12,7 +12,6 @@
       .incio{
           margin-top: 20%;
           margin-bottom: 9%;
-          
       }
     </style>
 

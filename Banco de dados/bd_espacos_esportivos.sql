@@ -5,22 +5,12 @@ USE projeto_gerenciamento_espaços_esportivos;
 CREATE TABLE IF NOT EXISTS espacos( 
 	ID int not null auto_increment primary key, 
     NOME VARCHAR(100)
-); 
-
-CREATE TABLE IF NOT EXISTS turmas( 
-	ID int not null auto_increment primary key, 
-    NOME varchar(100)
 );  
 
-CREATE TABLE IF NOT EXISTS tipo_solitacao( 
-	ID int not null auto_increment primary key, 
-    NOME varchar(100)
-); 
 
 CREATE TABLE IF NOT EXISTS solicitacoes( 
 	ID int not null auto_increment primary key, 
-    ID_ESPACO int, 
-    ID_TIPO_SOLICITACOES int,  
+    ID_ESPACO int,  
     NOME varchar(100), 
     MATRICULA varchar(30),  
     DESCRICAO varchar(300), 
@@ -30,11 +20,8 @@ CREATE TABLE IF NOT EXISTS solicitacoes(
     HORA_FIM time,
     DATA_REGISTRO date, 
     HORA_REGISTRO time,
-    foreign key (ID_ESPACO) references espacos(ID),  
-    foreign key (ID_TIPO_SOLICITACOES) references tipo_solitacao(ID) 
+    foreign key (ID_ESPACO) references espacos(ID)  
 );  
-
-
 
 CREATE TABLE IF NOT EXISTS administrador( 
     EMAIL varchar(100),
