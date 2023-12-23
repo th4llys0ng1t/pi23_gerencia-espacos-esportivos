@@ -1,15 +1,15 @@
-<?php
+<?php 
 
-    $nome_espaco = $_POST["nome_espaco"];
-
+    $id_espaco = $_POST["id_espaco_editado"];
+    $nome_espaco = $_POST["nome_espaco_editado"];
+    
     include "../banco/conexao.php";
-
+    
     $conn = conectar();
-
-    $sql = "INSERT INTO espacos(NOME) VALUES ('$nome_espaco');";
-
+    
+    $sql = "UPDATE espacos SET NOME='$nome_espaco' WHERE ID=$id_espaco;";
+    
     $resultado = $conn->query($sql);
-
     if($resultado){
         desconectar($conn);
         header("Location: ../p_espacos.php");
@@ -18,5 +18,6 @@
         desconectar($conn);
         echo "<p>Problema</p>";
     }
+
 
 ?>

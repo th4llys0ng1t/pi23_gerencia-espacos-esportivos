@@ -4,7 +4,7 @@
 if(session_id() == '')
     session_start();
 
-if (!isset($_SESSION['usuario'])) {
+if (!isset($_SESSION["matricula"])) {
     header("location: login.php?erro=Você+não+tem+permissão+de+acesso");
     die('');
 }

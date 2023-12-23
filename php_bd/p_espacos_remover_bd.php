@@ -1,15 +1,13 @@
-<?php
-
-    $nome_espaco = $_POST["nome_espaco"];
+<?php 
+    $id = $_GET["id"];
 
     include "../banco/conexao.php";
-
+    
     $conn = conectar();
-
-    $sql = "INSERT INTO espacos(NOME) VALUES ('$nome_espaco');";
-
+    
+    $sql = "DELETE FROM espacos WHERE ID=$id;";
+    
     $resultado = $conn->query($sql);
-
     if($resultado){
         desconectar($conn);
         header("Location: ../p_espacos.php");

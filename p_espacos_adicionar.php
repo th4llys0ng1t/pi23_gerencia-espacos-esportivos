@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ADICIONE OS ESPAÇOS</title>
+    <title>Adicione espaços</title>
     </style>
 </head>
 <body>
     
-    <form action="php_bd/p_espacos_adicionar" method="post">
+    <form action="php_bd/p_espacos_adicionar_bd.php" method="post">
         <div>
-            <input type="number" name="id_espaco" placeholder="Id do espaço" autofocus><br>
-            <input type="text" name="nome_espaco" placeholder="Nome do espaço" autofocus><br>
+            <label for="nome_espaco">Nome do espaço:</label>
+            <input type="text" name="nome_espaco" id="nome_espaco" placeholder="Nome do espaço" autofocus><br><br>
             <input type="submit" name="cadastrar" value="Cadastre">
         </div>
     </form>
