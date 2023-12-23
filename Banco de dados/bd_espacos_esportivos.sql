@@ -8,8 +8,7 @@ CREATE TABLE IF NOT EXISTS espacos(
 );  
 
 CREATE TABLE IF NOT EXISTS solicitacoes( 
-	ID int not null auto_increment primary key, 
-    ID_ESPACO int,  
+	ID int not null auto_increment primary key,   
     NOME varchar(100), 
     MATRICULA varchar(30),  
     DESCRICAO varchar(300), 

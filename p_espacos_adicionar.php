@@ -3,10 +3,8 @@
 <html lang="en">
 <head>
     <title>Adicione espaços</title>
-    </style>
 </head>
 <body>
-    
     <form action="php_bd/p_espacos_adicionar_bd.php" method="post">
         <div>
             <label for="nome_espaco">Nome do espaço:</label>

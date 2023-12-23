@@ -16,6 +16,6 @@
     <a class="nav-link" href="p_espacos.php">espaços</a><br><br>
 
     <h2>Faça suas solicitações</h2>
-    
+    <a class="nav-link" href="p_solicitacoes.php">solicitações</a>
 </body>
 </html>
