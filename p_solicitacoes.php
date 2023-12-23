@@ -13,10 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .incio{
-
           margin-top: 10%;
           margin-bottom: 9%;
-          
       }
     </style>
 </head>
