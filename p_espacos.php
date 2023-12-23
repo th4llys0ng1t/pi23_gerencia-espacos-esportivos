@@ -6,7 +6,7 @@
     <title>Espaços</title>
 </head>
 <body>
-    <h3>Espaços</h3>
+    <h2>Espaços</h2>
     <a class="nav-link" href="p_espacos_adicionar.php">Adicionar</a><br><br>
 
     <tr>
