@@ -2,10 +2,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+
+    <?php include 'base/head.php'?> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicite</title>
+    <title>Solicite</title> 
+    <link rel="stylesheet" href="src/CSS/style2.css">
+    <link rel="stylesheet" href="src/CSS/style.css"> 
+   
 </head>
 <body>
     <form action="php_bd/p_solicitacoes_adicionar_bd.php" method="post">
@@ -43,6 +48,8 @@
             ?>
         </p>
         <input type="submit" value="Solicite" name="solicite">
-    </form>
+    </form>  
+
+    <?php include 'base/rodape.php'?>
 </body>
 </html>
