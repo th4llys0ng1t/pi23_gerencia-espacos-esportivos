@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEJA BEM VINDO</title>
+    <title>Seja bem vindo</title>
     <style>
-      .incio{
+      .inicio{
           margin-top: 20%;
           margin-bottom: 9%;
       }
@@ -19,9 +19,9 @@
 <body>
     <?php include 'base/menu.php'?>
     <center>
-            <div class="incio">
-                <img src="src/IMG/logo.png" width="100">
-                <h1>FAÇA O SEU AGENDAMENTO</h1>
+            <div class="inicio">
+                <img src="src/IMG/logo.png" width="100"><br>
+                <a href="p_solicitacoes_adicionar.php">FAÇA SUAS SOLICITAÇÕES</a>
             </div>
     </center>
     <?php include 'base/rodape.php' ?>

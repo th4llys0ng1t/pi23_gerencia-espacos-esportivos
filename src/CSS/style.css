@@ -3,10 +3,7 @@ nav-list{
   padding: 0;
   font-size: 12px;
 }
-
-a:hover {
-  opacity: 0.5;
-}  
+  
 .logonav{
   padding-top: 0.5px;
 }

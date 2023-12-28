@@ -40,12 +40,6 @@ form [type="submit"]{
   background-color: #0f7a0f;
 }
 
-a{
-  color: #ffff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 .card{
   margin-top: 55px;
 }

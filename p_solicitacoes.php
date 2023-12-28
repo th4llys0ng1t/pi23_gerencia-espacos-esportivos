@@ -34,10 +34,10 @@
       if ($resultado->num_rows > 0){
         while($row = $resultado->fetch_assoc()) {
           echo "<tr>";  
-          echo "<td>".$row["NOME"]."</td>";
-          echo "<td><a href='p_solicitacoes_editar.php?codigo=".$row["ID"]."'>EDITAR</a></td>";
-          echo "<td><a href='php/p_solicitacoes_remover_bd.php?codigo=".$row["ID"]."'>REMOVER</a></td>";
-          echo "</tr>";
+          echo "<td>".$row["NOME"]."</td> ";
+          echo "<td><a href='p_solicitacoes_editar.php?codigo=".$row["ID"]."'>EDITAR</a></td> ";
+          echo "<td><a href='php/p_solicitacoes_remover_bd.php?codigo=".$row["ID"]."'>REMOVER</a></td> ";
+          echo "</tr><br>";
         }
       }else{
         echo "<td>Nenhum núcleo cadastrado</td><td></td><td></td>";

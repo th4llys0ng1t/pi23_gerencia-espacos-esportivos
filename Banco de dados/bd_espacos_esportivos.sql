@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS solicitacoes(
     HORA_FIM time,
     DATA_REGISTRO date, 
     HORA_REGISTRO time,
+    ID_ESPACO int,
     foreign key (ID_ESPACO) references espacos(ID)  
 );  
 
