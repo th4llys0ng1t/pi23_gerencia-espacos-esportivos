@@ -35,8 +35,8 @@
         while($row = $resultado->fetch_assoc()) {
           echo "<tr>";  
           echo "<td>".$row["NOME"]."</td> ";
-          echo "<td><a href='p_solicitacoes_editar.php?codigo=".$row["ID"]."'>EDITAR</a></td> ";
-          echo "<td><a href='php/p_solicitacoes_remover_bd.php?codigo=".$row["ID"]."'>REMOVER</a></td> ";
+          echo "<td><a href='p_solicitacoes_editar.php?id=".$row["ID"]."'>EDITAR</a></td> ";
+          echo "<td><a href='php_bd/p_solicitacoes_remover_bd.php?id=".$row["ID"]."'>REMOVER</a></td> ";
           echo "</tr><br>";
         }
       }else{
