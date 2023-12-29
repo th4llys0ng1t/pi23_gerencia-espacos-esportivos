@@ -8,9 +8,14 @@ $conn = conectar();
 
 $sql = "DELETE FROM espacos WHERE ID=$id;"; 
 
-$resultado = $conn->query($sql);
+$resultado = $conn->query($sql); 
 
-else{
+if($resultado){
+    desconectar($conn);
+    header("Location: ../p_solicitacoes.php");
+    die();
+
+}else{
     desconectar($conn);
     echo "<p>Problema</p>";
 }
