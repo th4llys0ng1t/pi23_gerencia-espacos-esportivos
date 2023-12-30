@@ -43,7 +43,7 @@
                     echo "<input type='radio' name='espaco' value='".$row["ID"]."' /> ".$row["NOME"]."<br />";
                 }
                 } else {
-                    echo "Nenhuma espaço cadastrada";
+                    echo "Nenhum espaço cadastrado";
                 }
             ?>
         </p>

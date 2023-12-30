@@ -7,6 +7,7 @@
     $conn = conectar();
 
     $sql = "DELETE FROM solicitacoes WHERE ID=$id;";
+    
     $resultado = $conn->query($sql);
 
     if($resultado){

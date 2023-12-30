@@ -24,7 +24,7 @@
         $espaco = $row["ID_ESPACO"];
     }
     } else {
-        echo "<td>Nenhuma área cadastrada</td><td></td><td></td>";
+        echo "<td>Nenhuma solicitação feita </td><td></td><td></td>";
     }
 
 ?>
