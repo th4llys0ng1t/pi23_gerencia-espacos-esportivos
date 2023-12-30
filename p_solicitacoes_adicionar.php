@@ -41,6 +41,7 @@
                 if ($resultado->num_rows > 0) {
                 while($row = $resultado->fetch_assoc()) {
                     echo "<input type='radio' name='espaco' value='".$row["ID"]."' /> ".$row["NOME"]."<br />";
+
                 }
                 } else {
                     echo "Nenhum espaço cadastrado";
