@@ -9,14 +9,15 @@
     $data_final = $_POST["data_final"];
     $data_registro = $_POST["data_registro"];
     $hora_registro = $_POST["hora_registro"];
+    $id_espaco = $_POST["espaco"];
 
     include "../banco/conexao.php";
 
     $conn = conectar();
 
     $sql = "INSERT INTO solicitacoes(NOME, MATRICULA, DESCRICAO, DATA_INICIO, HORA_INICIO, 
-    DATA_FIM, HORA_FIM, DATA_REGISTRO, HORA_REGISTRO) VALUES ('$nome', '$matricula', '$descricao'
-    ,'$data_inicio', '$hora_inicio', '$data_final', '$hora_fim', '$data_registro', '$hora_registro');";
+    DATA_FIM, HORA_FIM, DATA_REGISTRO, HORA_REGISTRO, ID_ESPACO) VALUES ('$nome', '$matricula', '$descricao'
+    ,'$data_inicio', '$hora_inicio', '$data_final', '$hora_fim', '$data_registro', '$hora_registro', $id_espaco);";
 
     $resultado = $conn->query($sql);
 
