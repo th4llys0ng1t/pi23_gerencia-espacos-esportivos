@@ -13,13 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<body> 
+<body>   
+    <?php include 'base/menu.php'?> 
+    <br> <br> <br> <br>
 
     <form action="php_bd/p_espacos_adicionar_bd.php" method="post">
         <div>
             <label for="nome_espaco">Nome do espaço:</label>
             <input type="text" name="nome_espaco" id="nome_espaco" placeholder="Nome do espaço" autofocus><br><br>
-            <input type="submit" name="cadastrar" value="Cadastre">
+            <input type="submit" name="cadastrar" value="Cadastre"> 
         </div>
     </form> 
 

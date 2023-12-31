@@ -28,16 +28,23 @@
 <html lang="en">
 
 <head>
-    <title>Edite os espaços</title>
+    <?php include "base/head.php"?> 
+
+    <title>Edite os espaços</title> 
+    <link rel="stylesheet" href="src/CSS/style2.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
 </head>
-<body>
+<body> 
+    <?php include 'base/menu.php'?> 
+    <br> <br> <br> <br>
     <h2>Edição de espaços</h2>
     <form action="php_bd/p_espacos_editar_bd.php" method="post">
         <label for="nome_espaco_editado">Nome do espaço:</label>
         <input type="text" name="nome_espaco_editado" id="nome_espaco_editado" value="<?php echo $nome_espaco; ?>">
         <input type="hidden" name="id_espaco_editado" value="<?php echo $id; ?>">
-        <input type="submit" name="editar" value="Edite">
-    </form>
+        <input type="submit" name="editar" value="Edite"> 
+    </form> 
+  
 </body> 
 
 </html>

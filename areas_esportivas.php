@@ -10,7 +10,7 @@
     <title>Faça seus cadastros</title>
 
 </head>
-<body>
+<body> 
     <h1>Faça seus cadastros</h1><br>     
     <h2>Adicione espaços</h2>
     <a class="nav-link" href="p_espacos.php">espaços</a><br><br>

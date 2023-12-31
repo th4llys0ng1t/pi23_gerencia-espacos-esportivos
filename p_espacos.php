@@ -2,10 +2,18 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Espaços</title>
+<head> 
+
+    <?php include "base/head.php"?>  
+    <br><br> 
+    <br><br>
+    <title>Espaços</title>  
+    <link rel="stylesheet" href="src/CSS/style2.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
 </head>
-<body>
+<body>   
+<?php include 'base/menu.php'?>
+  
     <h2>Espaços</h2>
     <a class="nav-link" href="p_espacos_adicionar.php">Adicionar</a><br><br>
 
@@ -13,7 +21,8 @@
         <th>Nome</th>
         <th>Editar</th>
         <th>Remover</th>
-    </tr><br>
+    </tr><br>  
+
 </body> 
 
 <?php 
