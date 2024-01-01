@@ -36,7 +36,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solicitações</title>
 </head>
+<style>
+    form [type="submit"]{
+        background-color: #0f7a0f;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+
+      }
+      label{
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+</style>
 <body>
+    
     <h2>Cadastro de solicitações</h2>
     <form action="php_bd/p_solicitacoes_editar_bd.php" method="post">
         <label for="nome">Nome:</label>

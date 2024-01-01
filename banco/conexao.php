@@ -4,7 +4,7 @@ function conectar()
 {
     $servidor = "localhost";
     $usuario = "root";
-    $senha ="12345";
+    $senha ="";
     $banco = "projeto_gerenciamento_espaços_esportivos";
 
     $conn = new mysqli($servidor, $usuario, $senha, $banco);

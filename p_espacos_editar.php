@@ -34,8 +34,16 @@
     <link rel="stylesheet" href="src/CSS/style2.css">
     <link rel="stylesheet" href="src/CSS/style.css">
 </head>
+<style>
+    form [type="submit"]{
+        background-color: #0f7a0f;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+      }
+</style>
 <body> 
-    <?php include 'base/menu.php'?> 
+    
     <br> <br> <br> <br>
     <h2>Edição de espaços</h2>
     <form action="php_bd/p_espacos_editar_bd.php" method="post">

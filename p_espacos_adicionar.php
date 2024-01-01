@@ -13,6 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+<style>
+    form [type="submit"]{
+        background-color: #0f7a0f;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        
+      }
+</style>
 <body>   
     <?php include 'base/menu.php'?> 
     <br> <br> <br> <br>
@@ -25,7 +34,7 @@
         </div>
     </form> 
 
-    <?php include 'base/rodape.php'?>
+    
 </body> 
     
 </html>

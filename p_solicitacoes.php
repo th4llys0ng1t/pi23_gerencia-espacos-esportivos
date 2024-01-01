@@ -11,9 +11,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<style>
+   h2{
+    margin-top: 120px;
+    background-color: #0f7a0f;
+        width: 500px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+        border-radius: 20px;
+  }
+  .nav_link{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+</style>
 <body>
-    <h2>Solicitações</h2>
-    <a class="nav-link" href="p_solicitacoes_adicionar.php">Adicionar</a><br><br>
+<?php include 'base/menu.php'?>
+
+    <h2><center>Solicitações</center></h2>
+    <a class="nav_link" href="p_solicitacoes_adicionar.php">Adicionar</a><br><br>
 
     <tr>
         <th>Nome</th>

@@ -12,7 +12,28 @@
     <link rel="stylesheet" href="src/CSS/style.css"> 
    
 </head>
+<style>
+   form [type="submit"]{
+        background-color: #0f7a0f;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+      }
+      label{
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .peba{
+        margin-top: 120px;
+      }
+      
+
+</style>
+
 <body>
+<?php include 'base/menu.php'?> 
+
+<div class="peba">
     <form action="php_bd/p_solicitacoes_adicionar_bd.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome"><br><br>
@@ -50,7 +71,8 @@
         </p>
         <input type="submit" value="Solicite" name="solicite">
     </form>  
+    </div>
 
-    <?php include 'base/rodape.php'?>
+
 </body>
 </html>

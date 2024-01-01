@@ -10,12 +10,47 @@
     <title>Faça seus cadastros</title>
 
 </head>
+<style>
+    h1{
+        margin-top: 140px;
+        background-color: #0f7a0f;
+        width: 500px;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        color: #ffff;
+        border-radius: 20px;
+        
+    }
+    h2{
+        background-color: #0f7a0f;
+        width: 500px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+        border-radius: 20px;
+    }
+    .nav_link{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+</style>
 <body> 
-    <h1>Faça seus cadastros</h1><br>     
-    <h2>Adicione espaços</h2>
-    <a class="nav-link" href="p_espacos.php">espaços</a><br><br>
+<?php include 'base/menu.php'?>
+    <h1><center>Faça seus cadastros</center></h1><br>     
+    <h2><center>Adicione espaços</center></h2>
+    <a class="nav_link" href="p_espacos.php">Espaços</a><br><br>
 
-    <h2>Faça suas solicitações</h2>
-    <a class="nav-link" href="p_solicitacoes.php">solicitações</a>
+    <h2><center>Faça suas solicitações</center></h2>
+    <a class="nav_link" href="p_solicitacoes.php">Solicitações</a>
+
+</br>
+</br>
+</br>
+
+
+    <?php include 'base/rodape.php'?>
 </body>
 </html>

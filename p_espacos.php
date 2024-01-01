@@ -11,17 +11,36 @@
     <link rel="stylesheet" href="src/CSS/style2.css">
     <link rel="stylesheet" href="src/CSS/style.css">
 </head>
+<style>
+  h2{
+    background-color: #0f7a0f;
+        width: 500px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+        border-radius: 20px;
+  }
+  .nav_link{
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+    }
+</style>
+
 <body>   
 <?php include 'base/menu.php'?>
   
-    <h2>Espaços</h2>
-    <a class="nav-link" href="p_espacos_adicionar.php">Adicionar</a><br><br>
+    <h2><center>Espaços</center></h2>
+    <a class="nav_link" href="p_espacos_adicionar.php">Adicionar</a><br><br>
 
     <tr>
         <th>Nome</th>
         <th>Editar</th>
         <th>Remover</th>
     </tr><br>  
+    </br>
+
 
 </body> 
 
