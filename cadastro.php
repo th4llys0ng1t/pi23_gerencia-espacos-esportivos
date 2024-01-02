@@ -61,7 +61,7 @@
                 <input type="text" name="email" placeholder="Email Escolar" autofocus>
                 <input type="text" name="matricula" placeholder="Matrícula" autofocus>
                 <input type="text" name="usuario" placeholder="Usuário" autofocus>
-                <input type="password" name="senha" placeholder="Senha" autofocus>
+                <input type="password" name="senha" placeholder="Senha" autofocus> 
                 <input type="submit" value="cadastrar" name="cadastro">
             </form>
         </div>

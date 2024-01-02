@@ -20,8 +20,8 @@
     <?php include 'base/menu.php'?>
     <center>
             <div class="inicio">
-                <img src="src/IMG/logo.png" width="100"><br>
-                <a href="p_solicitacoes_adicionar.php">FAÇA SUAS SOLICITAÇÕES</a>
+                <img src="src/IMG/logo.png" width="220"><br>
+                
             </div>
     </center>
     <?php include 'base/rodape.php' ?>

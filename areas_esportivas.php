@@ -41,7 +41,7 @@
 <?php include 'base/menu.php'?>
     <h1><center>Faça seus cadastros</center></h1><br>     
     <h2><center>Adicione espaços</center></h2>
-    <a class="nav_link" href="p_espacos.php">Espaços</a><br><br>
+    <a class="nav_link" href="senha.php">Espaços</a><br><br>
 
     <h2><center>Faça suas solicitações</center></h2>
     <a class="nav_link" href="p_solicitacoes.php">Solicitações</a>
@@ -51,6 +51,6 @@
 </br>
 
 
-    <?php include 'base/rodape.php'?>
+    
 </body>
 </html>

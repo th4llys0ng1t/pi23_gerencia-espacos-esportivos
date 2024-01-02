@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS solicitacoes(
     HORA_FIM time,
     DATA_REGISTRO date, 
     HORA_REGISTRO time,
-    ID_ESPACO int,
+    ID_ESPACO int, 
     foreign key (ID_ESPACO) references espacos(ID)  
 );  
 
@@ -26,7 +26,8 @@ CREATE TABLE IF NOT EXISTS administrador(
     EMAIL varchar(100),
     MATRICULA varchar(30) primary key, 
     USUARIO varchar(90),
-    SENHA varchar(90)
+    SENHA varchar(90) 
+    
 ); 
 
 

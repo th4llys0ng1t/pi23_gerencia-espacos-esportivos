@@ -4,7 +4,8 @@
     $usuario=$_POST['usuario'];
     $email=$_POST['email'];
     $senha=$_POST['senha'];
-    $matricula=$_POST['matricula'];
+    $matricula=$_POST['matricula'] 
+
 
     //criptando a senha
     $senha_cripto=md5($senha);

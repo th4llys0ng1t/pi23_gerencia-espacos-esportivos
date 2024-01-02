@@ -84,7 +84,8 @@
                   <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
                     <input type="password" class="form-control" name="senha" id="telefone" required value="12345678">
-                  </div>
+                  </div>  
+                  
                   <div class="form-group">
                     <label for="exampleInputFile">Avatar do usuário</label>
                     <div class="input-group">
