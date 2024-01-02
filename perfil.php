@@ -2,6 +2,22 @@
   if(session_id() == ''){
     session_start();
   }
+
+  include "banco/conexao.php";
+
+  $conn = conectar();
+
+  $sql = "SELECT * FROM administrador";
+
+  $resultado = $conn->query($sql);
+
+  if ($resultado->num_rows > 0) {
+    while($row = $resultado->fetch_assoc()) {
+      $email = $row["EMAIL"];
+      $matricula = $row["MATRICULA"];
+      $usuario = $row["USUARIO"];
+      $senha = $row["SENHA"];
+  }}
 ?>
 
 <!DOCTYPE html>
@@ -34,31 +50,6 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-      <?php
-         /*$id = filter_input(INPUT_GET,'id',FILTER_DEFAULT);
-
-       $select = "SELECT * FROM tb_contatos WHERE id_contatos=:id";
-        try{
-            $resultado = $conect->prepare($select);
-            $resultado->bindParam(':id',$id, PDO::PARAM_INT);
-            $resultado->execute();
-
-            $contar = $resultado->rowCount();
-            if($contar>0){
-                while($show = $resultado->FETCH(PDO::FETCH_OBJ)){
-                    $idCont = $show->id_contatos;
-                    $nome = $show->nome_contatos;
-                    $fone = $show->fone_contatos;
-                    $email = $show->email_contatos;
-                    $foto = $show->foto_contatos;
-                }
-            }else{
-                echo '<div class="alert alert-danger">Não há dados com o id informado!</div>';
-            }
-        }catch(PDOException $e){
-            echo "<strong>ERRO DE SELECT NO PDO: </strong>".$e->getMessage();
-        }*/
-      ?>
         <div class="row">
           <!-- left column -->
           <div class="col-md-6">
@@ -73,16 +64,21 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nome</label>
-                    <input type="text" class="form-control" name="nome" id="nome" required value="Nome do usuário" disabled>
+                    <input type="text" class="form-control" name="nome" id="nome" 
+                    required value="<?php echo $usuario ?>" disabled>
                   </div>
                   
                   <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de E-mail</label>
-                    <input type="email" class="form-control" name="email" id="email" required value=  disabled>
+                    <input type="email" class="form-control" name="email" id="email" 
+                    required value="<?php echo $email ?>">
                   </div>
                
                   <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" name="senha" id="telefone" 
+                    required value="<?php echo $senha ?>">
+                  </div>
                     <input type="password" class="form-control" name="senha" id="telefone" required value="12345678">
                   </div>  
                   
@@ -105,18 +101,18 @@
               </form>
               <?php
                  if(isset($_POST['upPerfil'])){
-                $nome = $_POST['nome'];
-                $email = $_POST['email'];
-                $senha = base64_encode($_POST['senha']);
-                //Verificar se existe imagem para fazer o upload
-                if(!empty($_FILES['foto']['name'])) {
-                  $formatP = array("png", "jpg", "jpeg", "gif");
-                  $extensao = pathinfo($_FILES['foto']['name'], PATHINFO_EXTENSION);
+                    $nome = $_POST['nome'];
+                    $email = $_POST['email'];
+                    $senha = base64_encode($_POST['senha']);
+                    //Verificar se existe imagem para fazer o upload
+                    if(!empty($_FILES['foto']['name'])) {
+                      $formatP = array("png", "jpg", "jpeg", "gif");
+                      $extensao = pathinfo($_FILES['foto']['name'], PATHINFO_EXTENSION);
 
-                  if (in_array($extensao, $formatP)) {
-                    $pasta = "../img/";
-                    $temporario = $_FILES['foto']['tmp_name'];
-                    $novoNome = uniqid() . ".{$extensao}";
+                    if (in_array($extensao, $formatP)) {
+                      $pasta = "../img/";
+                      $temporario = $_FILES['foto']['tmp_name'];
+                      $novoNome = uniqid() . ".{$extensao}";
 
                     if (move_uploaded_file($temporario, $pasta . $novoNome)) {
 
@@ -176,8 +172,8 @@
               <!-- /.card-header -->
               <div class="card-body p-0" style="text-align: center; margin-bottom: 98px">
                 <img src="src/IMG/usuario_teste.png" alt="<?php echo $foto; ?>" title="<?php echo $foto; ?>" style="width: 200px; border-radius: 100%; margin-top: 30px">
-                <h1>Nome do usuário</h1>
-                <strong>usuario@exemplo.com.br</strong>
+                <h1><?php echo $usuario ?></h1>
+                <strong><?php echo $email ?></strong>
                 
               </div>
               <!-- /.card-body -->
