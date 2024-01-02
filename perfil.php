@@ -169,8 +169,8 @@
               <!-- /.card-header -->
               <div class="card-body p-0" style="text-align: center; margin-bottom: 98px">
                 <img src="src/IMG/usuario_teste.png" alt="<?php echo $foto; ?>" title="<?php echo $foto; ?>" style="width: 200px; border-radius: 100%; margin-top: 30px">
-                <h1>Nome do usuário</h1>
-                <strong>usuario@exemplo.com.br</strong>
+                <h1><?php echo $usuario ?></h1>
+                <strong><?php echo $email ?></strong>
                 
               </div>
               <!-- /.card-body -->
