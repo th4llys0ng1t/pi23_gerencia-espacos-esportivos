@@ -3,9 +3,9 @@
 function conectar()
 {
     $servidor = "localhost";
-    $usuario = "root";
-    $senha ="12345";
-    $banco = "projeto_gerenciamento_espaços_esportivos";
+    $usuario = "2023_info4_pi_ger_esportivo";
+    $senha ="geresp1234";
+    $banco = "2023_info4_pi_ger_esportivo";
 
     $conn = new mysqli($servidor, $usuario, $senha, $banco);
 
