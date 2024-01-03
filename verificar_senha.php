@@ -1,7 +1,7 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
-        $senha_certa = "12345";
+        $senha_certa = "senha12345";
         $senha_digitada = $_POST["senha"];
 
         if ($senha_digitada == $senha_certa) {
